@@ -1,0 +1,16 @@
+
+.containers p {
+    text-align: center;
+  }
+  .footer {
+    background: #80063b;
+    padding: 10px 0px 0px 0px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .containers {
+    padding: 10px 0;
+  }
+   img {
+    height: 133px;
+  }

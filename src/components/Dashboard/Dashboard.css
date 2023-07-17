@@ -1,0 +1,169 @@
+.container{
+  max-width: 962px;
+}
+.headerTop {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  align-items: center;
+  text-transform: uppercase;
+}
+.cards {
+  width: 442px;
+  background: linear-gradient(58deg, #971363, #180462, #460303);
+  color: #fff;
+  border-radius: 17px;
+  height: 641px;
+  border: 3px solid #444;
+}
+.backcards {
+  width: 442px;
+  background: linear-gradient(58deg, #971363, #180462, #460303);
+  color: #fff;
+  border-radius: 17px;
+  border: 3px solid #444;
+  height: 634px;
+}
+.headImg {
+  width: 66px;
+}
+.headImg img {
+  width: 100%;
+}
+.mainImg {
+  width: 132px;
+  border: 10px solid #970e9b;
+  margin: auto;
+}
+.mainImg img {
+  width: 100%;
+}
+.pdetail {
+  padding-left: 60px;
+}
+.detailArea h2 {
+  font-weight: 600;
+}
+.footer {
+  text-align: center;
+  padding: 8px 0;
+  font-size: 21px;
+}
+
+.headTxt h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.detailArea h2 {
+  font-size: 29px;
+  text-align: center;
+}
+.headTxt h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.detailArea h2 {
+  font-size: 29px;
+  text-align: center;
+}
+.iCard {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  align-items: center;
+  justify-items: center;
+}
+.headerTop h1 {
+  padding-top: 26px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.backList {
+  text-align: center;
+}
+.backheaderTop h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding-top: 25px;
+}
+.backheaderTop h4 {
+  font-size: 22px;
+  font-family: revert-layer;
+}
+.qrcodes {
+  width: 181px;
+  margin: auto;
+}
+.qrcodes img {
+  width: 100%;
+}
+.backdetails p {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.backdetails {
+  padding: 0 32px;
+}
+
+.backList {
+  text-align: center;
+}
+.backheaderTop h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding-top: 25px;
+}
+.backheaderTop h4 {
+  font-size: 22px;
+  font-family: revert-layer;
+}
+.qrcodes {
+  width: 181px;
+  margin: auto;
+}
+.qrcodes img {
+  width: 100%;
+}
+.backdetails p {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.backdetails {
+  padding: 0 32px;
+}
+.note {
+  font-size: 10px;
+}
+.backfooter .note {
+  font-size: 16px;
+  width: 342px;
+  margin: auto;
+  padding-bottom: 24px;
+}
+.backfooter h3 {
+  padding: 10px 0;
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.downloadbtn {
+text-align: center;
+padding: 30px 0;
+}
+.downloadbtn button {
+padding: 10px 30px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-weight: bold;
+background: #007d2b;
+color: #fff;
+font-size: 22px;
+transition: 0.2s;
+}
+.downloadbtn button:hover{
+  background: #015c21;
+}
