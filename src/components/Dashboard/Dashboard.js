@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
-import User from '../../assets/image/me.jpeg'
 import Qrcode from '../../assets/image/qrcode.png'
-import dff from '../../assets/image/IMG_20230611_125445.jpg'
 import JSZip from 'jszip';
 import  '../Dashboard/Dashboard.css'
-import axios from "axios";
 import mainLogo from '../../../src/assets/image/mainLogo.png'
 
 const Dashboard = () => {
@@ -323,7 +320,7 @@ console.log('====================================');
                             </div>
                         </div>
                         <div className="footer">
-                            <p>Computer Department</p>
+                            <p>{user.department} Department</p>
                         </div>
                     </div>
                     
@@ -354,7 +351,7 @@ console.log('====================================');
             </div>
             
                 <div className="downloadbtn">
-                    <button onClick={handleDownload} >Download Id Card</button>
+                    <button onClick={handleDownload} >Print Id Card</button>
                 </div>
             
         </div>

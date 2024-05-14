@@ -2,8 +2,6 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBIcon,
-  MDBInput,
   MDBCol,
   MDBRow,
   MDBRipple
@@ -27,7 +25,7 @@ export default function Footer() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={clgOne} style={{height: '135px'}} className='w-100' />
+                <img src={clgOne} style={{height: '135px'}} className='w-100'  alt="myImg1"/>
                 <a href='#!'>
                   <div
                     className='mask'
@@ -41,7 +39,7 @@ export default function Footer() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={clgTwo} style={{height: '135px'}} className='w-100' />
+                <img src={clgTwo} style={{height: '135px'}} className='w-100'  alt="myImg2"/>
                 <a href='#!'>
                   <div
                     className='mask'
@@ -55,7 +53,7 @@ export default function Footer() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={clgThree} style={{height: '135px'}} className='w-100' />
+                <img src={clgThree} style={{height: '135px'}} className='w-100'  alt="myImg3"/>
                 <a href='#!'>
                   <div
                     className='mask'
@@ -69,7 +67,7 @@ export default function Footer() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={clgFour} style={{height: '135px'}} className='w-100' />
+                <img src={clgFour} style={{height: '135px'}} className='w-100'  alt="myImg4"/>
                 <a href='#!'>
                   <div
                     className='mask'
@@ -83,7 +81,7 @@ export default function Footer() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={clg5} style={{height: '135px'}} className='w-100' />
+                <img src={clg5} style={{height: '135px'}} className='w-100' alt="myImg5" />
                 <a href='#!'>
                   <div
                     className='mask'
@@ -97,7 +95,7 @@ export default function Footer() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={clg6} style={{height: '135px'}} className='w-100' />
+                <img src={clg6} style={{height: '135px'}} className='w-100'  alt="myImg6"/>
                 <a href='#!'>
                   <div
                     className='mask'
@@ -112,7 +110,7 @@ export default function Footer() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2023 Copyright: 
-        <a className='text-white' href='https://mobinulislam.epizy.com/'>
+        <a className='text-white' rel='nopper' target='_blank' href='https://mahi-lac.vercel.app/'>
           mobinulislam.com
         </a>
       </div>
